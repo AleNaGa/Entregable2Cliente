@@ -33,13 +33,12 @@ button.id="botonJoker";
 button.textContent="boton";
 //6 crear un elemento div cuya clase sea "cards greenClass"
 const div = document.createElement("div");
-div.classList.add("cards-greenClass");
-div.id="cards-greenClass";
+div.classList.add("card");
 div.classList.add("greenClass");
+div.id="cards-greenClass";
 //7 anadir al elemento div creado anteriormente los h1, enlace y boton creados anteriormente
 div.appendChild(h1);
 div.appendChild(link);
 div.appendChild(button)
 cardContainer.appendChild(div);
-console.log("Ejercicio FIN")
 
